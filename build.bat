@@ -1,0 +1,1 @@
+pyinstaller -w -F -i icon.ico --add-data "icon.ico;." --hidden-import pystray --hidden-import PIL --hidden-import Pillow --hidden-import ctypes --hidden-import json --hidden-import threading MouseTrail.py
